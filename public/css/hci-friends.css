@@ -12,3 +12,14 @@
 h1, h2, h3, h4, h5 {
 	color: #8382BF;
 }
+
+.friends{
+    width: 200px;
+}
+
+$( ".friends").css( "background-color", "yellow" );
+
+$( ".friend_text" ).click(function() {
+    alert("handler called");
+    console.log("avaawdvaw");
+});
